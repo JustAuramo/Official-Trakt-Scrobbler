@@ -7,7 +7,7 @@
 </h1>
 <h4 align="center">Official Trakt Scrobbler Modded by Auramo</h4>
 <p align="center">
-  <a href="https://github.com/trakt-tools/universal-trakt-scrobbler/releases">
+  <a href="https://github.com/JustAuramo/Official-Trakt-Scrobbler/releases">
     <img alt="GitHub Release" src="https://img.shields.io/github/release/trakt-tools/universal-trakt-scrobbler.svg">
   </a>
 	<a href="https://crowdin.com/project/universal-trakt-scrobbler" title="Crowdin" target="_blank">
