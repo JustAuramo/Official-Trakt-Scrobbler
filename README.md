@@ -2,10 +2,10 @@
   <br>
   <img alt="Official Trakt Scrobbler" src="https://github.com/trakt-tools/universal-trakt-scrobbler/raw/master/src/images/uts-icon-128.png" width="150">
   <br>
-  Universal Trakt Scrobbler
+   Trakt Scrobbler
   <br>
 </h1>
-<h4 align="center">A universal scrobbler for Trakt.tv.</h4>
+<h4 align="center">Trakt Scrobbler</h4>
 <p align="center">
   <a href="https://github.com/trakt-tools/universal-trakt-scrobbler/releases">
     <img alt="GitHub Release" src="https://img.shields.io/github/release/trakt-tools/universal-trakt-scrobbler.svg">
