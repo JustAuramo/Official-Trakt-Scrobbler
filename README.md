@@ -5,7 +5,7 @@
    Trakt Scrobbler
   <br>
 </h1>
-<h4 align="center">Trakt Scrobbler</h4>
+<h4 align="center">Official Trakt Scrobbler Modded by Auramo</h4>
 <p align="center">
   <a href="https://github.com/trakt-tools/universal-trakt-scrobbler/releases">
     <img alt="GitHub Release" src="https://img.shields.io/github/release/trakt-tools/universal-trakt-scrobbler.svg">
@@ -15,7 +15,7 @@
 	</a>
 </p>
 
-**WARNING:** This extension has not been released yet. For now you can install it manually by downloading the zip for your browser here: https://github.com/trakt-tools/universal-trakt-scrobbler/releases/tag/1.0.0-beta
+
 
 ### Loading the extension manually on Chrome
 
@@ -25,13 +25,7 @@
 4. Click "Load unpacked"
 5. Select the folder you unzipped
 
-### Loading the extension manually on Firefox
 
-1. Go to about:debugging#/runtime/this-firefox
-2. Click "Load Temporary Add-on"
-3. Select `firefox.zip`
-
-We are working on getting the extension in the Chrome and Firefox stores ASAP.
 
 ### Table of Contents
 
