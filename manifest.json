@@ -1,0 +1,100 @@
+{
+  "manifest_version": 2,
+  "name": "Universal Trakt Scrobbler",
+  "version": "1.0.0",
+  "description": "Siirrä Katselu Historia Suoraan Trakt.tv palveluun",
+  "icons": {
+    "16": "images/uts-icon-16.png",
+    "128": "images/uts-icon-128.png"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "trakt.js"
+      ],
+      "matches": [
+        "*://*.trakt.tv/apps*"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "default_locale": "fi",
+  "optional_permissions": [
+    "cookies",
+    "notifications",
+    "tabs",
+    "webRequest",
+    "webRequestBlocking",
+    "*://api.rollbar.com/*",
+    "*://*.primevideo.com/*",
+    "*://*.beta.crunchyroll.com/*",
+    "*://*.disneyplus.com/*",
+    "*://*.goplay.be/*",
+    "*://*.hbogo.co.th/*",
+    "*://*.hbogoasia.com/*",
+    "*://*.hbogo.hu/*",
+    "*://*.hbogo.cz/*",
+    "*://*.hbogo.sk/*",
+    "*://*.hbogo.ro/*",
+    "*://*.hbogo.ru/*",
+    "*://*.hbogo.pl/*",
+    "*://*.hbogo.hr/*",
+    "*://*.hbogo.rs/*",
+    "*://*.hbogo.si/*",
+    "*://*.hbogo.mk/*",
+    "*://*.hbogo.me/*",
+    "*://*.hbogo.bg/*",
+    "*://*.hbogo.ba/*",
+    "*://*.hbogo.eu/*",
+    "*://*.hbo.com/*",
+    "*://*.hbomax.com/*",
+    "*://*.kijk.nl/*",
+    "*://*.netflix.com/*",
+    "*://*.nrk.no/*",
+    "*://*.player.pl/*",
+    "*://*.polsatboxgo.pl/*",
+    "*://*.polsatgo.pl/*",
+    "*://*.streamz.be/*",
+    "*://*.viaplay.com/*",
+    "*://*.viaplay.no/*",
+    "*://*.viaplay.se/*",
+    "*://*.viaplay.dk/*",
+    "*://*.viaplay.fi/*",
+    "*://*.viaplay.is/*",
+    "*://*.viaplay.pl/*",
+    "*://*.viaplay.ee/*",
+    "*://*.viaplay.lv/*",
+    "*://*.viaplay.lt/*",
+    "*://*.vrtnu.be/*",
+    "*://*.vrt.be/vrtnu/*",
+    "*://*.vtmgo.be/*",
+    "*://*.vtm.be/vtmgo/*",
+    "*://*.wakanim.tv/*"
+  ],
+  "browser_action": {
+    "default_icon": {
+      "19": "images/uts-icon-19.png",
+      "38": "images/uts-icon-38.png"
+    },
+    "default_popup": "popup.html",
+    "default_title": "Universal Trakt Scrobbler"
+  },
+  "permissions": [
+    "identity",
+    "storage",
+    "unlimitedStorage",
+    "*://*.trakt.tv/*",
+    "*://*.themoviedb.org/*",
+    "*://*.uts.rafaelgomes.xyz/*"
+  ],
+  "web_accessible_resources": [
+    "images/*"
+  ],
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAy/ZXv2olOF+fkJle2Ud2gTlLEonDKRJmL8dFoFL8X62RI9S1h4sjRutiNSwjRMe637VflUeJ9ppcM1et4AVHsO/wW+3VqnxU4t0/wLFpJ/pih+g8feo0oH8X8oskLssLTDvbtn7dnfq6uPDa1T+P7lEOTo1E63qYMNBtjyxyP8H1nZlES0YZcvf6cA/xFxR4a9e9/LSpzIwADCmR/frs0LNWo5Ti+a9KzVh3NTJfLzrcnIvpbRj+7Sc83QG47/fbQYzz1FPumzds6f/cT+khAFVFdbwgJTzeT+7W4m/D4i5sodkwC9fd+b49VD9vpnCQHaDGRKpSE2C7XIH1WGLApQIDAQAB"
+}
