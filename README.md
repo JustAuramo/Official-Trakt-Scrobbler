@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img alt="Universal Trakt Scrobbler" src="https://github.com/trakt-tools/universal-trakt-scrobbler/raw/master/src/images/uts-icon-128.png" width="150">
+  <img alt="Official Trakt Scrobbler" src="https://github.com/trakt-tools/universal-trakt-scrobbler/raw/master/src/images/uts-icon-128.png" width="150">
   <br>
   Universal Trakt Scrobbler
   <br>
